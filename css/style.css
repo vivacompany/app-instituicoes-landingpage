@@ -1,0 +1,255 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#header {
+    color: #fff;
+    position: fixed;
+    width: 100%;
+    background: none;
+}
+
+/* landingpage */
+
+#landingpage {
+    float: left;
+    width: 100%;
+    background-image: url('/img/background.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    box-sizing: content-box;
+}
+
+.logo {
+    width: 80px;
+}
+
+.logo img {
+    width: 100%;
+}
+
+.left-div,
+.right-div {
+    float: left;
+}
+
+.left-div {
+    background-image: url('/img/ellipse-background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.left-div {
+    float: right;
+}
+
+.pick {
+    position: absolute;
+    top: 180px;
+    left: 40%;
+}
+
+#landingpage .pick-1 {
+    z-index: 4;
+    top: 440px;
+    left: 60px;
+}
+
+#landingpage .pick-2 {
+    right: -40px;
+    z-index: 3;
+    top: 260px;
+}
+
+#landingpage .pick-3 {
+    z-index: 2;
+    top: 585px;
+    left: 480px;
+}
+
+#landingpage .pick-4 {
+    width: 40%;
+}
+
+.right-div h1 {
+    color: #fff;
+    font-size: 3em;
+    margin-top: 50%;
+}
+
+.right-div p {
+    color: #fff;
+    border: 100;
+    width: 80%;
+}
+
+.cta {
+    padding: 20px;
+    color: #B01212;
+    background: #fff;
+    border-radius: 10px;
+    margin-top: 20px;
+    float: left;
+    margin-left: 8px;
+    text-decoration: none;
+}
+
+#beneficios {
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    height: auto;
+    padding: 20px;
+}
+
+#beneficios h2 {
+    color: #B01212;
+    font-weight: bolder;
+}
+
+#beneficios .img {
+    background: url('/img/phone-2-background.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+}
+
+#beneficios .div-image,
+#beneficios .div-text {
+    float: left;
+}
+
+#beneficios .div-text {
+    float: right;
+}
+
+#beneficios .pick-1 {
+    left: 200px;
+    margin-top: -180px;
+}
+
+.shadow-box {
+    width: 200px;
+    height: 200px;
+    background: #B01212;
+    box-shadow: 1px 2px 200px 40px #fd0b0b50;
+    box-sizing: border-box;
+    float: left;
+    margin-left: 220px;
+    margin-top: 200px;
+    border-radius: 50%;
+}
+
+#beneficios .pick-2 {
+    left: 120px;
+    top: 90px;
+}
+
+#beneficios .pick-3 {
+    left: 270px;
+    top: 430px;
+}
+
+#beneficios .pick-4 {
+    left: 400px;
+    top: 230px;
+}
+
+#beneficios .articles {
+    float: right;
+    padding: 20px;
+    overflow: hidden;
+}
+
+#beneficios .articles article {
+    width: 100%;
+    padding: 20px;
+    height: 120px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 1px 2px 12px 8px #fd0b0b0c;
+    margin-top: 20px;
+}
+
+#beneficios .articles h3 {
+    color: #FD0B0B;
+    text-transform: uppercase;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+#beneficios .articles img,
+#beneficios .articles .inner-text {
+    float: left;
+}
+
+#beneficios .articles img {
+    width: 120px;
+}
+
+#pub {
+    float: left;
+    width: 100%;
+    padding: 80px;
+    margin-top: 0px;
+}
+
+#pub .div-text {
+    float: left;
+}
+
+#pub .div-left {
+    float: right;
+}
+
+#pub .pick {
+    top: auto;
+    left: 0;
+}
+
+#pub .pick-1 {
+    width: 100%;
+}
+
+#pub .pick-2 {
+    width: 100px;
+}
+
+h2 {
+    text-transform: uppercase;
+    padding: 20px;
+    color: #B01212;
+    font-weight: bolder;
+}
+
+#pub-2{
+    float: left;
+    width: 100%;
+}
+
+#pub-2 .layer{
+    float: left;
+    background: linear-gradient(-45deg, #B01212, #FD0B0B);
+    width: 100%;
+    height: 400px;
+    padding: 40px;
+    border-radius: 40px;
+}
+
+#pub-2 .left-div,
+#pub-2 .right-div{
+    float: left;
+}
+
+#pub-2 h2{
+    color: #fff;
+    width: 80%;
+}
