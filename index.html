@@ -28,6 +28,8 @@
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
   <link rel="stylesheet" href="/css/animate.css">
+  <link rel="stylesheet" href="/css/style.css">
+  <link rel="stylesheet" href="/css/@media.css">
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="./Corporate _ Front - Multipurpose Responsive Template_files/theme.min.css">
@@ -389,10 +391,11 @@
       opacity: 0
     }
 
-    .go-to:hover{
+    .go-to:hover {
       background: #b01212;
     }
-    .go-to:active{
+
+    .go-to:active {
       background: #b01212;
     }
   </style>
@@ -411,9 +414,7 @@
   <header id="header"
     class="navbar navbar-expand-lg navbar-end navbar-absolute-top navbar-light navbar-show-hide navbar-scrolled navbar-untransitioned"
     data-hs-header-options="{
-      "fixMoment": 1000,
-      "fixEffect": "slide"
-    }" hsheader="true">
+      " fixMoment": 1000, "fixEffect" : "slide" }" hsheader="true">
 
     <div class="container">
       <nav class="js-mega-menu navbar-nav-wrap hs-menu-initialized hs-menu-horizontal">
@@ -422,29 +423,6 @@
           <img src="./img/logo-ico.png" alt="app-viva" style="width: 80px;">
         </a>
         <!-- End Default Logo -->
-
-        <!-- Toggler -->
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-
-        <div class="collapse navbar-collapse" id="navbarNavDropdown">
-          <div class="navbar-absolute-top-scroller">
-            <ul class="navbar-nav">
-              <!-- Company -->
-              <li class="nav-item"><a class="nav-link" href="https://e-viva.tech/">Site oficial</a>
-              </li>
-              <li class="nav-item"><a class="nav-link" href="/index.html">Página inicial</a></li>
-              <li class="nav-item"><a class="nav-link" target="_blank"
-                  href="https://app.e-viva.tech/index.php/politicas-de-privacidade/">Políticas de privacidade</a></li>
-              <li class="nav-item"><a class="nav-link" target="_blank"
-                  href="https://app.e-viva.tech/index.php/politicas-viva/">Políticas de uso</a></li>
-              <li class="nav-item"><a class="nav-link" target="_blank"
-                  href="https://app.e-viva.tech/index.php/politicas-de-consulta/">Políticas de consulta</a></li>
-            </ul>
-          </div>
-        </div>
-        <!-- End Collapse -->
       </nav>
     </div>
   </header>
@@ -462,19 +440,15 @@
             <div class="col-lg-5">
               <div class="mb-5">
                 <h1 class="display-4 mb-3" data-anime="bottom">
-                  Cadastre a sua instituição e aumente sua visibilidade no mercado de 
+                  Cadastre a sua Instituição de Saúde e aumente sua visibilidade no mercado de
 
                   <span class="text-highlight-warning">
                     saúde!
                   </span>
                 </h1>
 
-                <p class="lead" data-anime="bottom">Potencialize sua instituição de saúde com o VIVA: uma plataforma completa para alcançar mais pacientes e aumentar sua rentabilidade.</p>
-              </div>
-
-              <div class="d-grid d-sm-flex gap-3">
-                <a class="btn btn-primary btn-transition px-6" data-anime="bottom"
-                  href="https://htmlstream.com/preview/front-v4.3.1/page-login-simple.html">Cadastre-se agora</a>
+                <p class="lead" data-anime="bottom">Potencialize sua Instituição com o VIVA um aplicativo
+                  completo para alcançar mais pacientes e aumentar sua rentabilidade.</p>
               </div>
             </div>
             <!-- End Col -->
@@ -484,26 +458,141 @@
         <!-- End Title & Description -->
 
         <!-- SVG Shape -->
-        <div class="col-lg-7 col-xl-6 d-none d-lg-block position-absolute top-0 end-0 pe-0"
-          style="margin-top: 6.75rem;">
-            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1137.5 979.2">
-              <path fill="#b0121207" d="M565.5,957.4c81.1-7.4,155.5-49.3,202.4-115.7C840,739.8,857,570,510.7,348.3C-35.5-1.5-4.2,340.3,2.7,389
+        <div class="col-lg-7 col-xl-6 image-top" style="margin-top: 0rem;">
+          <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 1137.5 979.2">
+            <path fill="#b0121207" d="M565.5,957.4c81.1-7.4,155.5-49.3,202.4-115.7C840,739.8,857,570,510.7,348.3C-35.5-1.5-4.2,340.3,2.7,389
                 c0.7,4.7,1.2,9.5,1.7,14.2l29.3,321c14,154.2,150.6,267.8,304.9,253.8L565.5,957.4z"></path>
-              <defs>
-                <path id="mainHeroSVG1" d="M1137.5,0H450.4l-278,279.7C22.4,430.6,24.3,675,176.8,823.5l0,0C316.9,960,537.7,968.7,688.2,843.6l449.3-373.4V0z"></path>
-              </defs>
-              <clippath id="mainHeroSVG2">
-                <use xlink:href="#mainHeroSVG1"></use>
-              </clippath>
-              <g transform="matrix(1 0 0 1 0 0)" clip-path="url(#mainHeroSVG2)">
-                <image width="780" height="770" xlink:href="/img/smiling-black-doctor-with-papers.jpg" transform="matrix(1.4462 0 0 1.4448 52.8755 0)"></image>
-              </g>
-            </svg>
+            <defs>
+              <path id="mainHeroSVG1"
+                d="M1137.5,0H450.4l-278,279.7C22.4,430.6,24.3,675,176.8,823.5l0,0C316.9,960,537.7,968.7,688.2,843.6l449.3-373.4V0z">
+              </path>
+            </defs>
+            <clippath id="mainHeroSVG2">
+              <use xlink:href="#mainHeroSVG1"></use>
+            </clippath>
+            <g transform="matrix(1 0 0 1 0 0)" clip-path="url(#mainHeroSVG2)">
+              <image style="border-radius: 50%;" width="60%" height="70%"
+                xlink:href="/img/smiling-black-doctor-with-papers.jpg" transform="matrix(1.4462 0 0 1.4448 52.8755 0)">
+              </image>
+            </g>
+          </svg>
         </div>
         <!-- End SVG Shape -->
       </div>
     </div>
     <!-- End Hero -->
+
+    <section id="form" class="py-10">
+      <div class="container">
+        <div class="row justify-content-lg-between align-items-md-center">
+          <div class="col-md-5 mb-7 mb-md-0">
+            <div class="mb-5" style="color: #fff;">
+              <h2 class="subtitle mb-3" style="color: #fff;">Seja Parceiro VIVA. Cadastre Agora!</h2>
+              <p>Não perca tempo! Cadastre agora mesmo no VIVA a sua instituição e seja parte da revolução digital no sector de saúde.
+                Aumente sua visibilidade, conquiste mais pacientes e potencialize sua rentabilidade.
+                Junte-se a nós e transforme o futuro da sua instituição! </p>
+            </div>
+          </div>
+          <!-- End Col -->
+
+          <div class="col-md-7 col-lg-6">
+            <!-- Form -->
+            <form class="js-validate needs-validation" novalidate="">
+              <!-- Card -->
+              <div class="card">
+
+                <div class="card-body">
+                  <div class="row gx-3">
+                    <div class="col-sm-12">
+                      <!-- Form -->
+                      <div class="mb-4">
+                        <label class="form-label" for="signupHeroFormFirstName">Nome da instituição</label>
+                        <input type="text" class="form-control form-control-lg" name="signupHeroFormNameFirstName"
+                          id="signupHeroFormFirstName" placeholder="" aria-label="First name" required="">
+                        <span class="invalid-feedback">Por favor insira o nome da instituição</span>
+                      </div>
+                      <!-- End Form -->
+                    </div>
+                    <!-- End Col -->
+                  </div>
+                  <!-- End Row -->
+
+                  <div class="col-sm-12">
+                    <!-- Form -->
+                    <div class="mb-4">
+                      <label class="form-label" for="signupHeroFormSignupPassword">Tipo de Instituição de Saúde</label>
+                      <select name="profissao" id="profissao" class="form-select">
+                        <option value="">Selecione uma opção</option>
+                        <option value="Clínica">Clínica</option>
+                        <option value="Centro Médico">Centro Médico</option>
+                        <option value="Consultório Médico">Consultório Médico</option>
+                        <option value="Laboratório">Laboratório</option>
+                        <option value="Óptica">Óptica</option>
+                      </select>
+                    </div>
+                  </div>
+
+                  <!-- Form -->
+                  <div class="mb-4">
+                    <label class="form-label" for="signupHeroFormWorkEmail">Email</label>
+                    <input type="email" class="form-control form-control-lg" name="signupHeroFormNameWorkEmail"
+                      id="signupHeroFormWorkEmail" placeholder="email@site.com" aria-label="email@site.com" required="">
+                    <span class="invalid-feedback">Por favor insira um email valido</span>
+                  </div>
+                  <!-- End Row -->
+
+                  <div class="col-sm-12">
+                    <!-- Form -->
+                    <div class="mb-4">
+                      <label class="form-label" for="signupHeroFormLasttName">Telefone</label>
+                      <input type="tel" class="form-control form-control-lg" name="signupHeroFormNameLastName"
+                        id="signupHeroFormLasttName" placeholder="+244 912 345 679" aria-label="Last name" required="">
+                      <span class="invalid-feedback">Por favor insira um numero valido</span>
+                    </div>
+                    <!-- End Form -->
+                  </div>
+                  <!-- End Col -->
+
+                  <div class="col-sm-12">
+                    <!-- Form -->
+                    <div class="mb-4">
+                      <label class="form-label" for="signupHeroFormLasttName">Localização</label>
+                      <input type="text" class="form-control form-control-lg" name="signupHeroFormNameLastName"
+                        id="signupHeroFormLasttName" placeholder="Localização da instituição" aria-label="Last name"
+                        required="">
+                      <span class="invalid-feedback">Por favor insira um numero valido</span>
+                    </div>
+                    <!-- End Form -->
+                  </div>
+                  <!-- End Col -->
+
+                  <!-- Check -->
+                  <div class="form-check mb-4">
+                    <input type="checkbox" class="form-check-input" id="signupHeroFormPrivacyCheck"
+                      name="signupFormPrivacyCheck" required="">
+                    <label class="form-check-label small" for="signupHeroFormPrivacyCheck"> Ao enviar este
+                      formulário,
+                      li e reconheci a <a href="https://app.e-viva.tech/index.php/politicas-de-privacidade/">Política
+                        de Privacidade</a></label>
+                    <span class="invalid-feedback">Aceite a Política de Privacidade.</span>
+                  </div>
+
+                  <div class="col-sm-5 text-sm-end">
+                    <button type="submit" class="btn btn-primary btn-lg">Cadastrar agora</button>
+                  </div>
+                  <!-- End Col -->
+                </div>
+                <!-- End Row -->
+              </div>
+          </div>
+          <!-- End Card -->
+          </form>
+          <!-- End Form -->
+        </div>
+        <!-- End Col -->
+      </div>
+      </div>
+    </section>
 
     <!-- Card Grid -->
     <div class="container content-space-2 content-space-t-xl-3 content-space-b-lg-3">
@@ -522,7 +611,9 @@
 
             <div class="card-body" data-anime="bottom">
               <h4 class="card-title">🎯 Foco e Especialização</h4>
-              <p class="card-text">Conte com a expertise do VIVA na gestão eficiente, controle de regras, despesas e custos relacionados aos processos de saúde. Utilize nosso conhecimento para impulsionar sua estratégia de negócios e alcançar excelência na sua área de atuação.</p>
+              <p class="card-text">Conte com a expertise do VIVA na gestão eficiente, controle de regras, despesas e
+                custos relacionados aos processos de saúde. Utilize nosso conhecimento para impulsionar sua estratégia
+                de negócios e alcançar excelência na sua área de atuação.</p>
             </div>
           </div>
           <!-- End Card -->
@@ -537,7 +628,9 @@
 
             <div class="card-body" data-anime="bottom">
               <h4 class="card-title">👁️‍🗨️ Visibilidade</h4>
-              <p class="card-text">Aproveite as ferramentas digitais do VIVA para aumentar o reconhecimento da sua marca. Nossas estratégias de marketing irão impulsionar sua presença online, expandindo sua marca e impulsionando seu crescimento.</p>
+              <p class="card-text">Aproveite as ferramentas digitais do VIVA para aumentar o reconhecimento da sua
+                marca. Nossas estratégias de marketing irão impulsionar sua presença online, expandindo sua marca e
+                impulsionando seu crescimento.</p>
             </div>
           </div>
           <!-- End Card -->
@@ -552,7 +645,9 @@
 
             <div class="card-body" data-anime="bottom">
               <h4 class="card-title">🌍 Abrangência</h4>
-              <p class="card-text">Explore seu nicho de mercado e otimize seu planejamento geográfico e segmentação de clientes. O VIVA irá canalizar potenciais clientes para sua instituição, oferecendo agilidade, flexibilidade e maior capacidade competitiva.</p>
+              <p class="card-text">Explore seu nicho de mercado e otimize seu planejamento geográfico e segmentação de
+                clientes. O VIVA irá canalizar potenciais clientes para sua instituição, oferecendo agilidade,
+                flexibilidade e maior capacidade competitiva.</p>
             </div>
             <!-- End Card -->
           </div>
@@ -566,7 +661,10 @@
 
             <div class="card-body" data-anime="bottom">
               <h4 class="card-title">👥 Clientes</h4>
-              <p class="card-text">Nossos clientes são a essência do negócio. A missão do VIVA é aumentar a base de pacientes dos nossos parceiros, maximizando seus ganhos. Com nossa plataforma de saúde de qualidade, estratégias de vendas e crescimento, conquistamos novos clientes, mantemos sua satisfação e fidelizamos seu retorno.</p>
+              <p class="card-text">Nossos clientes são a essência do negócio. A missão do VIVA é aumentar a base de
+                pacientes dos nossos parceiros, maximizando seus ganhos. Com nossa plataforma de saúde de qualidade,
+                estratégias de vendas e crescimento, conquistamos novos clientes, mantemos sua satisfação e fidelizamos
+                seu retorno.</p>
             </div>
             <!-- End Card -->
           </div>
@@ -580,7 +678,9 @@
 
             <div class="card-body" data-anime="bottom">
               <h4 class="card-title">📲 Inclusão Tecnológica</h4>
-              <p class="card-text">Proporcione uma experiência de atendimento conectada e moderna. Reduza deslocamentos e tempo de espera agendando consultas, exames e outros serviços através do VIVA. Centralize todas as informações de forma eficiente, obtendo uma gestão otimizada e reduzindo custos.</p>
+              <p class="card-text">Proporcione uma experiência de atendimento conectada e moderna. Reduza deslocamentos
+                e tempo de espera agendando consultas, exames e outros serviços através do VIVA. Centralize todas as
+                informações de forma eficiente, obtendo uma gestão otimizada e reduzindo custos.</p>
             </div>
             <!-- End Card -->
           </div>
@@ -591,7 +691,7 @@
     <!-- End Card Grid -->
     </div>
 
-    
+
 
     <!-- Testimonials -->
     <div class="container content-space-2 content-space-lg-3">
@@ -632,134 +732,22 @@
     </div>
     <!-- End Testimonials -->
 
-
-    <section id="form" class="py-10" style="background: #b01212;">
-      <div class="container">
-        <div class="row justify-content-lg-between align-items-md-center">
-          <div class="col-md-5 mb-7 mb-md-0">
-            <div class="mb-5" style="color: #fff;">
-              <h2 style="color: #fff; font-size: 3em;">Seja Parceiro do VIVA. Cadastra-se Agora!</h2>
-              <p>Não perca tempo! Cadastre-se agora mesmo no VIVA e seja parte da revolução digital no setor de saúde. 
-                Aumente sua visibilidade, conquiste mais pacientes e potencialize sua rentabilidade. 
-                Junte-se a nós e transforme o futuro da sua instituição! </p>
-            </div>
-          </div>
-          <!-- End Col -->
-
-          <div class="col-md-7 col-lg-6">
-            <!-- Form -->
-            <form class="js-validate needs-validation" novalidate="">
-              <!-- Card -->
-              <div class="card">
-
-                <div class="card-body">
-                  <div class="row gx-3">
-                    <div class="col-sm-12">
-                      <!-- Form -->
-                      <div class="mb-4">
-                        <label class="form-label" for="signupHeroFormFirstName">Nome da instituição</label>
-                        <input type="text" class="form-control form-control-lg" name="signupHeroFormNameFirstName"
-                          id="signupHeroFormFirstName" placeholder="" aria-label="First name" required="">
-                        <span class="invalid-feedback">Por favor insira o nome da instituição</span>
-                      </div>
-                      <!-- End Form -->
-                    </div>
-                    <!-- End Col -->
-
-
-                    <div class="col-sm-12">
-                      <!-- Form -->
-                      <div class="mb-4">
-                        <label class="form-label" for="signupHeroFormFirstName">O Responsável</label>
-                        <input type="text" class="form-control form-control-lg" name="signupHeroFormNameFirstName"
-                          id="signupHeroFormFirstName" placeholder="Nome completo" aria-label="First name" required="">
-                        <span class="invalid-feedback">Por favor insira o nome completo</span>
-                      </div>
-                      <!-- End Form -->
-                    </div>
-                    <!-- End Col -->
-
-
-                  </div>
-                  <!-- End Row -->
-                  
-                  <!-- Form -->
-                  <div class="mb-4">
-                    <label class="form-label" for="signupHeroFormWorkEmail">Email</label>
-                    <input type="email" class="form-control form-control-lg" name="signupHeroFormNameWorkEmail"
-                    id="signupHeroFormWorkEmail" placeholder="email@site.com" aria-label="email@site.com" required="">
-                    <span class="invalid-feedback">Por favor insira um email valido</span>
-                  </div>
-                  <!-- End Row -->
-                  
-                  <div class="col-sm-12">
-                    <!-- Form -->
-                    <div class="mb-4">
-                      <label class="form-label" for="signupHeroFormLasttName">Telefone</label>
-                      <input type="tel" class="form-control form-control-lg" name="signupHeroFormNameLastName"
-                        id="signupHeroFormLasttName" placeholder="+244 912 345 679" aria-label="Last name"
-                        required="">
-                      <span class="invalid-feedback">Por favor insira um numero valido</span>
-                    </div>
-                    <!-- End Form -->
-                  </div>
-                  <!-- End Col -->
-                  
-                  <div class="col-sm-12">
-                    <!-- Form -->
-                    <div class="mb-4">
-                      <label class="form-label" for="signupHeroFormLasttName">Endereço</label>
-                      <input type="text" class="form-control form-control-lg" name="signupHeroFormNameLastName"
-                        id="signupHeroFormLasttName" placeholder="Endereço da instituição" aria-label="Last name"
-                        required="">
-                      <span class="invalid-feedback">Por favor insira um numero valido</span>
-                    </div>
-                    <!-- End Form -->
-                  </div>
-                  <!-- End Col -->
-
-                  <!-- Check -->
-                  <div class="form-check mb-4">
-                    <input type="checkbox" class="form-check-input" id="signupHeroFormPrivacyCheck"
-                      name="signupFormPrivacyCheck" required="">
-                    <label class="form-check-label small" for="signupHeroFormPrivacyCheck"> Ao enviar este formulário,
-                      li e reconheci a <a href="https://app.e-viva.tech/index.php/politicas-de-privacidade/">Política
-                        de Privacidade</a></label>
-                    <span class="invalid-feedback">Aceite a Política de Privacidade.</span>
-                  </div>
-
-                  <div class="col-sm-5 text-sm-end">
-                    <button type="submit" class="btn btn-primary btn-lg">Cadastrar Agora</button>
-                  </div>
-                  <!-- End Col -->
-                </div>
-                <!-- End Row -->
-              </div>
-          </div>
-          <!-- End Card -->
-          </form>
-          <!-- End Form -->
-        </div>
-        <!-- End Col -->
-      </div>
-      </div>
-    </section>
-
-
     <!-- ========== FOOTER ========== -->
     <footer class="bg-light p-5">
       <div class="container pb-1 pb-lg-7">
         <center>
           <small>© 2023 App Viva</small>
         </center>
-        <!-- End Footer -->
       </div>
-      </div>
-      </div>
+    </footer>
+    <!-- End Footer -->
+    </div>
+    </div>
+    </div>
 
-      <!-- Go To -->
-      <a class="js-go-to go-to position-fixed animated hs-go-to-prevent-event fadeInUp" href="javascript:;"
-        style="right: 2rem; bottom: 2rem;" data-hs-go-to-options="{
+    <!-- Go To -->
+    <a class="js-go-to go-to position-fixed animated hs-go-to-prevent-event fadeInUp" href="javascript:;"
+      style="right: 2rem; bottom: 2rem;" data-hs-go-to-options="{
        &quot;offsetTop&quot;: 700,
        &quot;position&quot;: {
          &quot;init&quot;: {
@@ -773,142 +761,142 @@
          }
        }
      }">
-        <i class="bi-chevron-up"></i>
-      </a>
-      <!-- ========== END SECONDARY CONTENTS ========== -->
+      <i class="bi-chevron-up"></i>
+    </a>
+    <!-- ========== END SECONDARY CONTENTS ========== -->
 
-      <!-- JS Implementing Plugins -->
-      <script src="./Corporate _ Front - Multipurpose Responsive Template_files/vendor.min.js.download"></script>
-      <script src="./Corporate _ Front - Multipurpose Responsive Template_files/aos.js.download"></script>
+    <!-- JS Implementing Plugins -->
+    <script src="./Corporate _ Front - Multipurpose Responsive Template_files/vendor.min.js.download"></script>
+    <script src="./Corporate _ Front - Multipurpose Responsive Template_files/aos.js.download"></script>
 
-      <!-- JS Front -->
-      <script src="./Corporate _ Front - Multipurpose Responsive Template_files/theme.min.js.download"></script>
-      <script src="/js/animate.js"></script>
+    <!-- JS Front -->
+    <script src="./Corporate _ Front - Multipurpose Responsive Template_files/theme.min.js.download"></script>
+    <script src="/js/animate.js"></script>
 
-      <!-- JS Plugins Init. -->
-      <script>
-        (function () {
-          // INITIALIZATION OF HEADER
-          // =======================================================
-          new HSHeader('#header').init()
-
-
-          // INITIALIZATION OF MEGA MENU
-          // =======================================================
-          new HSMegaMenu('.js-mega-menu', {
-            desktop: {
-              position: 'left'
-            }
-          })
+    <!-- JS Plugins Init. -->
+    <script>
+      (function () {
+        // INITIALIZATION OF HEADER
+        // =======================================================
+        new HSHeader('#header').init()
 
 
-          // INITIALIZATION OF SHOW ANIMATIONS
-          // =======================================================
-          new HSShowAnimation('.js-animation-link')
+        // INITIALIZATION OF MEGA MENU
+        // =======================================================
+        new HSMegaMenu('.js-mega-menu', {
+          desktop: {
+            position: 'left'
+          }
+        })
 
 
-          // INITIALIZATION OF BOOTSTRAP VALIDATION
-          // =======================================================
-          HSBsValidation.init('.js-validate', {
-            onSubmit: data => {
-              data.event.preventDefault()
-              alert('Submited')
-            }
-          })
+        // INITIALIZATION OF SHOW ANIMATIONS
+        // =======================================================
+        new HSShowAnimation('.js-animation-link')
 
 
-          // INITIALIZATION OF BOOTSTRAP DROPDOWN
-          // =======================================================
-          HSBsDropdown.init()
+        // INITIALIZATION OF BOOTSTRAP VALIDATION
+        // =======================================================
+        HSBsValidation.init('.js-validate', {
+          onSubmit: data => {
+            data.event.preventDefault()
+            alert('Submited')
+          }
+        })
 
 
-          // INITIALIZATION OF GO TO
-          // =======================================================
-          new HSGoTo('.js-go-to')
+        // INITIALIZATION OF BOOTSTRAP DROPDOWN
+        // =======================================================
+        HSBsDropdown.init()
 
 
-          // INITIALIZATION OF AOS
-          // =======================================================
-          AOS.init({
-            duration: 650,
-            once: true
-          });
+        // INITIALIZATION OF GO TO
+        // =======================================================
+        new HSGoTo('.js-go-to')
 
 
-          // INITIALIZATION OF TEXT ANIMATION (TYPING)
-          // =======================================================
-          HSCore.components.HSTyped.init('.js-typedjs')
+        // INITIALIZATION OF AOS
+        // =======================================================
+        AOS.init({
+          duration: 650,
+          once: true
+        });
 
 
-          // INITIALIZATION OF SWIPER
-          // =======================================================
-          var sliderThumbs = new Swiper('.js-swiper-thumbs', {
-            watchSlidesVisibility: true,
-            watchSlidesProgress: true,
-            history: false,
-            breakpoints: {
-              480: {
-                slidesPerView: 2,
-                spaceBetween: 15,
-              },
-              768: {
-                slidesPerView: 3,
-                spaceBetween: 15,
-              },
-              1024: {
-                slidesPerView: 3,
-                spaceBetween: 15,
-              },
+        // INITIALIZATION OF TEXT ANIMATION (TYPING)
+        // =======================================================
+        HSCore.components.HSTyped.init('.js-typedjs')
+
+
+        // INITIALIZATION OF SWIPER
+        // =======================================================
+        var sliderThumbs = new Swiper('.js-swiper-thumbs', {
+          watchSlidesVisibility: true,
+          watchSlidesProgress: true,
+          history: false,
+          breakpoints: {
+            480: {
+              slidesPerView: 2,
+              spaceBetween: 15,
             },
-            on: {
-              'afterInit': function (swiper) {
-                swiper.el.querySelectorAll('.js-swiper-pagination-progress-body-helper')
-                  .forEach($progress => $progress.style.transitionDuration = `${swiper.params.autoplay.delay}ms`)
-              }
+            768: {
+              slidesPerView: 3,
+              spaceBetween: 15,
+            },
+            1024: {
+              slidesPerView: 3,
+              spaceBetween: 15,
+            },
+          },
+          on: {
+            'afterInit': function (swiper) {
+              swiper.el.querySelectorAll('.js-swiper-pagination-progress-body-helper')
+                .forEach($progress => $progress.style.transitionDuration = `${swiper.params.autoplay.delay}ms`)
             }
-          });
+          }
+        });
 
-          var sliderMain = new Swiper('.js-swiper-main', {
-            effect: 'fade',
-            autoplay: true,
-            loop: true,
-            thumbs: {
-              swiper: sliderThumbs
-            }
-          })
-        })()
-      </script>
-      <style type="text/css" data-typed-js-css="true">
-        .typed-cursor {
+        var sliderMain = new Swiper('.js-swiper-main', {
+          effect: 'fade',
+          autoplay: true,
+          loop: true,
+          thumbs: {
+            swiper: sliderThumbs
+          }
+        })
+      })()
+    </script>
+    <style type="text/css" data-typed-js-css="true">
+      .typed-cursor {
+        opacity: 1;
+      }
+
+      .typed-cursor.typed-cursor--blink {
+        animation: typedjsBlink 0.7s infinite;
+        -webkit-animation: typedjsBlink 0.7s infinite;
+        animation: typedjsBlink 0.7s infinite;
+      }
+
+      @keyframes typedjsBlink {
+        50% {
+          opacity: 0.0;
+        }
+      }
+
+      @-webkit-keyframes typedjsBlink {
+        0% {
           opacity: 1;
         }
 
-        .typed-cursor.typed-cursor--blink {
-          animation: typedjsBlink 0.7s infinite;
-          -webkit-animation: typedjsBlink 0.7s infinite;
-          animation: typedjsBlink 0.7s infinite;
+        50% {
+          opacity: 0.0;
         }
 
-        @keyframes typedjsBlink {
-          50% {
-            opacity: 0.0;
-          }
+        100% {
+          opacity: 1;
         }
-
-        @-webkit-keyframes typedjsBlink {
-          0% {
-            opacity: 1;
-          }
-
-          50% {
-            opacity: 0.0;
-          }
-
-          100% {
-            opacity: 1;
-          }
-        }
-      </style>
+      }
+    </style>
 
 </body>
 
