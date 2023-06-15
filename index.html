@@ -27,9 +27,9 @@
     integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz"
     crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
-  <link rel="stylesheet" href="/css/animate.css">
-  <link rel="stylesheet" href="/css/style.css">
-  <link rel="stylesheet" href="/css/@media.css">
+  <link rel="stylesheet" href="./css/animate.css">
+  <link rel="stylesheet" href="./css/style.css">
+  <link rel="stylesheet" href="./css/@media.css">
 
   <!-- CSS Front Template -->
   <link rel="stylesheet" href="./Corporate _ Front - Multipurpose Responsive Template_files/theme.min.css">
@@ -472,7 +472,7 @@
             </clippath>
             <g transform="matrix(1 0 0 1 0 0)" clip-path="url(#mainHeroSVG2)">
               <image style="border-radius: 50%;" width="60%" height="70%"
-                xlink:href="/img/smiling-black-doctor-with-papers.jpg" transform="matrix(1.4462 0 0 1.4448 52.8755 0)">
+                xlink:href="./img/smiling-black-doctor-with-papers.jpg" transform="matrix(1.4462 0 0 1.4448 52.8755 0)">
               </image>
             </g>
           </svg>
@@ -497,7 +497,7 @@
 
           <div class="col-md-7 col-lg-6">
             <!-- Form -->
-            <form class="js-validate needs-validation" novalidate="">
+            <form class="form-subscribe" enctype="multipart/form-data" method="POST" action="./script.php?acao=insertData">
               <!-- Card -->
               <div class="card">
 
@@ -507,7 +507,7 @@
                       <!-- Form -->
                       <div class="mb-4">
                         <label class="form-label" for="signupHeroFormFirstName">Nome da instituição</label>
-                        <input type="text" class="form-control form-control-lg" name="signupHeroFormNameFirstName"
+                        <input type="text" class="form-control form-control-lg" name="nome"
                           id="signupHeroFormFirstName" placeholder="" aria-label="First name" required="">
                         <span class="invalid-feedback">Por favor insira o nome da instituição</span>
                       </div>
@@ -520,7 +520,7 @@
                   <div class="col-sm-12">
                     <!-- Form -->
                     <div class="mb-4">
-                      <label class="form-label" for="signupHeroFormSignupPassword">Tipo de Instituição de Saúde</label>
+                      <label class="form-label" for="tipo">Tipo de Instituição de Saúde</label>
                       <select name="profissao" id="profissao" class="form-select">
                         <option value="">Selecione uma opção</option>
                         <option value="Clínica">Clínica</option>
@@ -534,8 +534,8 @@
 
                   <!-- Form -->
                   <div class="mb-4">
-                    <label class="form-label" for="signupHeroFormWorkEmail">Email</label>
-                    <input type="email" class="form-control form-control-lg" name="signupHeroFormNameWorkEmail"
+                    <label class="form-label" for="signupHeroFormWorkEmail">E-mail</label>
+                    <input type="email" class="form-control form-control-lg" name="email"
                       id="signupHeroFormWorkEmail" placeholder="email@site.com" aria-label="email@site.com" required="">
                     <span class="invalid-feedback">Por favor insira um email valido</span>
                   </div>
@@ -545,7 +545,7 @@
                     <!-- Form -->
                     <div class="mb-4">
                       <label class="form-label" for="signupHeroFormLasttName">Telefone</label>
-                      <input type="tel" class="form-control form-control-lg" name="signupHeroFormNameLastName"
+                      <input type="tel" class="form-control form-control-lg" name="telefone"
                         id="signupHeroFormLasttName" placeholder="+244 912 345 679" aria-label="Last name" required="">
                       <span class="invalid-feedback">Por favor insira um numero valido</span>
                     </div>
@@ -557,7 +557,7 @@
                     <!-- Form -->
                     <div class="mb-4">
                       <label class="form-label" for="signupHeroFormLasttName">Localização</label>
-                      <input type="text" class="form-control form-control-lg" name="signupHeroFormNameLastName"
+                      <input type="text" class="form-control form-control-lg" name="endereco"
                         id="signupHeroFormLasttName" placeholder="Localização da instituição" aria-label="Last name"
                         required="">
                       <span class="invalid-feedback">Por favor insira um numero valido</span>
@@ -569,7 +569,7 @@
                   <!-- Check -->
                   <div class="form-check mb-4">
                     <input type="checkbox" class="form-check-input" id="signupHeroFormPrivacyCheck"
-                      name="signupFormPrivacyCheck" required="">
+                      name="privacidade" required="">
                     <label class="form-check-label small" for="signupHeroFormPrivacyCheck"> Ao enviar este
                       formulário,
                       li e reconheci a <a href="https://app.e-viva.tech/index.php/politicas-de-privacidade/">Política
@@ -771,7 +771,7 @@
 
     <!-- JS Front -->
     <script src="./Corporate _ Front - Multipurpose Responsive Template_files/theme.min.js.download"></script>
-    <script src="/js/animate.js"></script>
+    <script src="./js/animate.js"></script>
 
     <!-- JS Plugins Init. -->
     <script>

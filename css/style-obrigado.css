@@ -1,6 +1,5 @@
 #form {
     background: linear-gradient(-30deg, #580505, #ff0000);
-    height: 100vh;
 }
 
 #form button[type=submit]{
